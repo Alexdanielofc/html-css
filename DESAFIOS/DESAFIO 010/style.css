@@ -1,0 +1,222 @@
+@charset "UTF-8";
+@font-face {
+    font-family:"idroid" ;
+    src: url(fontes/idroid.otf);
+}
+
+body{
+    background-color:rgb(232, 231, 194) ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin: 0px;
+
+}
+
+header{
+    min-height: 150px;
+    width: auto;
+    background-image: linear-gradient(to top, rgb(11, 59, 22),rgb(79, 175, 119));
+    margin: 0px;
+    padding: 20px;
+}
+
+header  h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.192);
+}
+
+header p {
+    font-size: 1.2em;
+    max-width: 500px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.192);
+}
+
+nav{
+    text-align: left;
+    height: auto;
+    margin: 40px 0px 0px 0px;
+}
+
+header > nav > a {
+    color: rgb(124, 194, 158);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition-duration: .5s;
+}
+
+header > nav > a:hover{
+    background-color: rgba(179, 255, 197, 0.452) ;
+    border-radius: 5px;
+    color: white;
+}
+
+main  img {
+    width: 100%;
+}
+
+main img.pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+div#assunto {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    height:auto;
+    box-shadow: 5p5x 5px 7px rgba(122, 120, 82, 0.342);
+    margin: auto;
+    border: 50px;
+    border-radius: 5px;
+    padding: 20px;
+    min-width: 320px;
+    max-width: 800px;
+}
+
+div#assunto > h1{
+    font-family: idroid,sans-serif;
+    color: rgb(11, 59, 22);
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+div#assunto > h2 {
+    font-family: idroid,sans-serif;
+    background-image: linear-gradient(to right,rgb(141, 192, 162),white);
+    color: rgb(11, 59, 22);
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+div#assunto > p {
+    line-height: 25px;
+    font-size: 13px;
+    text-align: justify;
+    text-indent: 35px;
+}
+
+main > div > p > a{
+    text-decoration: none;
+    background-color: rgb(141, 192, 162);
+    padding: 2px 6px 2px 6px ;
+    color: rgb(11, 59, 22);
+    font-weight: bold;
+}
+
+.destaque{
+    color: rgb(11, 59, 22);
+    font-weight: bold;
+}
+
+picture{
+    display: block;
+    text-align: center;
+}
+
+
+main > section#extra{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    height:auto;
+    box-shadow: 5px 5px 7px rgba(122, 120, 82, 0.342);
+    margin: auto;
+    border: 50px;
+    border-radius: 5px;
+    padding: 20px;
+    min-width: 320px;
+    max-width: 800px;
+}
+
+main > section > aside#top{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(11, 59, 22) ;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-align: left;
+    margin: 0px;
+    border: 0px;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+aside#main{
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.205);
+}
+
+main > section > aside#main{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(141, 192, 162);
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    text-align: left;
+    margin: 0px;
+    border-radius: 0px 0px 5px 5px;
+    text-indent: 25px;
+    padding:20px 10px 20px 10px;
+    line-height:25px;
+}
+
+main ul {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+
+}
+
+
+
+main > section > aside#main > p > a{
+    text-decoration: none;
+    color:rgb(11, 59, 22) ;
+    font-weight: bold;
+}
+
+div.video{
+    margin:0px -20px 30px -20px;
+    padding: 20px;
+    background-color: rgb(11, 59, 22);
+    position: relative;
+    padding-bottom: 58% ;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+.zerom{
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    background-color: #a9d5a100;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 320px;
+    max-width: 800px;
+    line-height: normal;
+  }
+
+#final{
+    font-size: 13px;
+}
+
+footer{
+    background-color: rgb(11, 59, 22);
+    padding: 8px;
+    font-size: 13px;
+}
+  

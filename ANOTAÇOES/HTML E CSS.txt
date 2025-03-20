@@ -1,0 +1,290 @@
+<<<< MODULO 1 >>>> 
+
+PRIMEIROS PASSOS >>>> CONCEITOS BASICOS, PREPARAÇAO DO AMBIENTE, SEMANTICA DA HTML5, TEXTOS, TITULOS, LIGAÇOES, MULTIMIDIA, ESTILOS 
+
+CAPITULO 01 >-------------------------------------------------------------
+
+
+SITES: MDM , W3C STANDARDS, WHATWG LIVING STANDART , 23SCHOOLS
+LIVROS: O'REILLY LIVROS, ALTA BOOKS HTML5 E CSS3
+BIBIOGRAFIA RECOMENDADA:
+MATERIAL DO CURSO EM VIDEO 
+
+INTERNET NASCEU PRA PROPOSITOS DA GUERRA FRIA, EUA CRIOU A DARP, CRIOU ARPANET PARA FAZER BKP DAS INFORMAÇOES DAS BASES MILITARES, CRIARAM PROTOCOLO NCP COM UMA SO  LINGUAGEM PRA CONVERSAR COM COMPUTADORES DIFERENTES.
+ BOB KAHN CRIOU TC, VINT CERF CRIOU IP JUNTOS FORMARAM O TCP/IP EM 1972 QUE E O PROTOCOLO QUE USA ATE HJ 
+GOPHER  PRIMEIRO PROTOCOLO DA INTERNET 
+1993 TIM BERNERS-LEE CRIOU HTTP:// E O HTML E O WWW 
+PRIMEIRO NAVEGADOR HTTP MOSAIC 
+
+INTERNET: TODA A REDE 
+WWW: SUB REDE DE HTML 
+HTTP PROTOCOLO FOCADO EM HYPERTEXTO
+
+CAPITULO 02 >-------------------------------------------------------------
+
+BIT BINARIO / SEQUENCIA DE 8 BITS: BYTES 
+UTF-8 CODIGO MULTIBYTE 
+1024 BYTES: 1 KB    1024 KB: MB    1024 MB: GB    1024 GB: TB
+1024 TB: PB         1024 PB: EB    1024 EB: ZB    1024 ZB: YB
+
+MB: MEGABYTES
+Mb: MEGABIT
+DNS: DOMAIN NAME SISTEM
+
+HOSPEDAGEM: ARMAZENAR ARQUIVOS, PAGO MENSALMENTE / ESPAÇO, MEMORIA, RECURSOS
+DOMINIO: NOME UNICO, PAGO ANUALMENTE, VARIOS TLDs 
+
+www.github.com/gustavoguanabara
+
+gustavoguanabara: URL
+github		: DOMINIO
+com		: TLD
+www		: SUB-DOMINIO
+
+CAPITULO 03 >-------------------------------------------------------------
+
+HTML: HYPERTEXT MARKUP LANGUAGE		CSS: CASCADING STYLE SHEETS
+
+HTML: FOCADA EM CONTEUDO > TEXTO, VIDEO, IMAGEM, TABELAS
+CSS : DESIGN, CORES, SOMBRA, TAMANHOS, POSICIONAMENTO
+JS  : INTERAÇOES > MENUS, ANIMAÇOES, POPUPS, VALIDAÇOES
+
+HTML
+
+ABERTURA DE TAG  <>   CONTEUDO  <> FECHAMENTO DE TAG
+
+<h1> EXEMPLO DE TITULO </h1>
+<P> EXEMPLO DE PARAGRAFO </P>
+<IMG SRC="foto.png" alt="Exemplo de foto">
+
+CSS
+
+h1 {
+font-family: Arial;	
+font-size: 20pt;
+color:blue:
+
+}
+..........................................................................
+ESTRUTURA BASICA HTML 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport"
+		content="width=device-width,
+		initial-scale=1.0">
+		<title>Document</title>		
+
+	</head>
+
+	<body>
+		<h1>Olá, Mundo!</h1>	
+
+	</body>
+	
+
+</html>
+..........................................................................
+
+FRONT-END OU CLIENT-SIDE: TECNOLOGIA PARA CLIENTE, FAZ A CARA DO PROJETO
+BACK-END OU SERVER-SIDE: TECNOLOGIA PARA SERVIDOR, FAZ POR TRAS DO PROJETO
+FULL-STACK: DESENVOLVE TANTO BACK-END QUANTO FRONT-END
+
+BACK-END LENGUAGES:PHP, JS; NODE, C#, PYTHON, RUBY, JAVA
+
+CAPITULO 04 >-------------------------------------------------------------
+
+NO VISUAL STUDIO COLOCA '!' E DA ENTER QUE PREENCHE ESTRUTURA BASICA AUTOMATICO
+
+CAPITULO 05 >-------------------------------------------------------------
+
+LESS THAN     &lt; PARA USAR < NO CODIGO  
+GREATER THAN  &gt;  PARA USAR > NO CODIGO
+<!-- ABRE COMENTARIO 
+
+ALGUNS CARACTERS USAR &
+&REG; &COPY; &trade; &euro; &pound; &yen; &cent; &Delta; &delta; &uarr;
+
+LISTA PARA EMOJIS: EMOJIPIDEA 
+USAR &#x ANTES DO CODIGO DO EMOJI
+
+
+CAPITULO 06 >-------------------------------------------------------------
+
+DIREITOS AUTORAIS EXISTEM SEMPRE FICAR ATENTO 
+FERRAMENTAS> MARCADAS PARA REUTILIZAÇAO COM MODIFICAÇÃO OU SEM MODIFICAÇÃO
+ALGUNS SITES: UNSPLASH, PEXELS
+
+FORMATO IMG WEB: JPEG, PNG
+JPEG: ALTA COMPACTA IMAGEM  PNG: PERMITE TRANSPARENCIA 
+
+TAMANHO RASUAVEL: 1500 E 70 DE RESOLUÇAO E QUALIDADE 70 POR CENTO
+TAMANHO NATURAL: 650 3 20 DE RESOLUÇAO E 70 QUALIDADE
+
+ICONE DE FAVORITOS: 
+
+https://www.iconarchive.com/
+https://www.favicon.cc/
+https://favicon.io/
+
+CAPITULO
+07 >-------------------------------------------------------------
+
+HIERARQUIA DE TITULOS 
+H1 h2 h3 h4 h5 h6
+
+
+CAPITULO
+08 >-------------------------------------------------------------
+
+SEMANTICA= O SIGNIFICADO DOS VOCABULOS, POR OPOSIÇAO A SUA FORMA
+
+HTML: SEMANTICA  CSS: ESTILO, FORMA
+
+CTRL + SHIFT + P COLOCAR APOS JA ESCRITO MAIS FACIL
+
+mark
+
+N SEMANTICA
+<b> </b>  NEGRITO / DESTAQUE 
+<I> </I>  ITALICO / ENFASE
+
+SEMANTICA
+<strong> </strong>  NEGRITO / DESTAQUE 
+<EM> </EM>          ITALICO / ENFASE
+
+RECOMENDADO SEMPRE USAR AS SEMANTICAS 
+
+big =  LETRA MAIOR 
+small = LETRA PEQUENA \
+
+mark = marca texto 
+style backgroundcolor dentro de mark para dar cor ao marca texto 
+
+dentro da head da cor para todos os mark da pagina 
+
+assim serve para outros style tbm 
+
+del = TEXTO EXCLUIDO
+ins = TEXTO INSERIDO
+
+u = sublinhado não semântico
+
+sup = acima
+sub = abaixo
+para números
+
+code = para espaçar principalmente para códigos
+envelopando code em `pre` ele mantem a estrutura original do codigo
+
+q = citação
+blockquote = aparece um pouco mais a frente a frase do livro
+pondo dentro a tag `cite` logo em frente o blockoute `blockout cite=` e pondo o link 
+fica salvo como referencia
+
+abbr = abreviações
+
+`bdo` apos rtl = right to left
+ltr = left to right
+
+CAPITULO
+09 >-------------------------------------------------------------
+
+ol = lista ordenada <!--A a I i 1 -->
+	li = para cada item da lista dentro  da `ol`
+
+ol type = escolhe a forma de organização que vai ser utilizada na lista
+
+start = vem na frente do type, escolhe em qual ponto a lista da inicio\
+
+
+ul = listas não ordenadas <!--disc circle square -->
+	li = para cada item da lista dentro  da `ul`
+
+ul type = escolhe a forma de organização que vai ser utilizada na lista
+
+ol
+  li
+    ul
+      li
+
+dl = lista de definições
+   dt = termo
+   dd = definição
+
+CAPITULO
+10 >-------------------------------------------------------------
+
+iana.org/assignments/mediatypes
+lista de todos os midea types
+
+CSO ()
+
+a/target/rel
+
+tag `a` direcionar texto para site
+ target="_blank" rel="external" : após as aspas no final do link dentro de `a` para quando clicar no link não fechar seu site
+
+para usar interno se utiliza rel=``next`` ou priv
+
+rel=``nofollow`` geralmente usado em divulgações quando vc n da haval para o conteúdo(par o mecanismo de busca )
+
+target=`_self` indica que e pra própria pagina
+
+../  = volte uma pasta, na hora de indicar arquivos 
+
+type=`application/pdf`
+type=`application/zip`
+
+CAPITULO
+11 >-------------------------------------------------------------
+
+300x300 =celular p
+700x700 =tablet  m
+1000x1000 =pc    g
+
+Picture = tag cria sourses por imagem
+source media   type
+<source media="(max-width: )" srcset="" type="">
+
+MP3 OGG WAV
+<audio src=""></audio> 
+parâmetros = controls, autoplay
+
+outra forma 
+ <audio>
+        <source src="" type="">
+    </audio>
+
+parâmetro audio= preload=`metadata` controls autoplay
+loop= para repetir quando terminar
+
+pexels
+mp4/m4v webn ogv
+
+ <video src="" width=""></video>
+width= tamanho
+parâmetros = controls, autoplay
+poster = indica capa
+
+idexar externo
+incluindo vídeos do yoube
+ifram
+
+
+picture{
+            display: block;
+            text-align: center;
+            font-size: 50px;
+            width: 500px;
+            height: 300px;
+        }
+
+CAPITULO
+12 >-------------------------------------------------------------
+
+link css = utilizar um arquivo especifico pra css
+pode utilizar mais de 1 link
+

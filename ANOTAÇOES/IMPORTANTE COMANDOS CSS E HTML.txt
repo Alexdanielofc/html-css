@@ -1,0 +1,55 @@
+>>>>>>>>>>>>>>>>>>> HTML >>>>>>>>>>>>>>>>>>>
+
+SEGURAR ALT PARA SELECIONAR LINHAS PARA ESCREVER EM VARIAS DE UMA VEZ
+
+TAG SPAN PARA MODIFICAR PEDAÇO DENTRO DE OUTRA TAG
+
+
+
+>>>>>>>>>>>>>>>>>>> CSS  >>>>>>>>>>>>>>>>>>>
+
+* { GLOBAL
+    font-family: Arial, Helvetica, sans-serif;	FAMILIA,FONTES
+    font-size: 1em;     (USA-SE PX OU EM)	TAMANHO FONTE
+
+body{
+    background-image:linear-gradient(to right, #F1D8C9, #f2c3a7) ;
+		GRADIENTE (DIREÇAO, COR1, COR2, COR3 ...)
+
+main{ TEXT BOX
+    background-color: white;		COR DE FUNDO 
+    box-shadow: 5px 5px 5px #7c645685;	SOMBRA DA CAIXA
+    border-radius: 10px;		CURVATURA CANTOS
+    font-weight:			PESO DA FONTE
+    text-align:				ALINHAMENTO DA FONTE
+    text-indent:			INICIO DO PARAGRAFO
+    font-style:				ESTILO DA FONTE
+    text-decoration:			DECORAÇAO DA FONTE
+    width: 600px;			LARGURA
+    padding: 10px;			PREENCHIMENTO
+    margin:auto;			CENTRALIZAR AUTOMATICAMENTE
+
+SHORTHAND FONT(font-style -> font-weight -> font-size -> font-family)
+    font: italic bolder 3em sans-serif;	
+
+h1 { TITULO
+    text-align: center;   			ALINHAMENTO TEXTO
+    color: #f39209 ;     			COR TEXTO
+    text-shadow: 1px 1px 2px #75470685; 	SOMBRA DO TEXTO
+
+p { PARAGRAFO
+    text-align: justify;		ALINHAMENTO DE TEXTO
+
+style{
+	@ REGRA
+	
+}
+
+div{
+            display: inline-block;			SITAÇAO
+            background-color: rgb(102, 114, 119);	COR DE FUNDO
+            border: 1px solid black;			BORDA EM 
+            text-align: center;		ALINHAMENTO DO TX
+            height: 200px;		ALTURA	
+            width: 200px;		LAARGURA
+        }

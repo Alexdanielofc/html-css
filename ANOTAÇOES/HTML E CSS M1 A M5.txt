@@ -586,3 +586,75 @@ CAPITULO 20 >-------------------------------------------------------
 
 text-transform: uppercase		transforma letras em maiúsculo
 font-variant: small-caps		primeiras letras da palavra maiores
+
+CAPITULO 21 >-------------------------------------------------------
+
+"Não pode usar tabela para criar extrutura do site"
+
+hierarquia de tabela (simples)
+TABLE= TABELA
+   TABLE ROW= LINHA DE TABELA
+	TABLE HEADER=CABEÇALHO DE TABELA
+	TABLE DATA= DADO DE TABELA
+
+border-collapse: collapse; 	colar bordas da tabela
+vertical-align: top;		alinhamento vertical da celula
+
+ANATOMIA PARA TABELAS GRANDES
+
+table
+  caption
+  thead
+	tr, td, th
+  tbody
+	tr, td, th
+  tfoot
+
+	tr, td, th
+
+<th scope="col">Estado</th> linha vertical
+<th scope="row">Total de Habitantes</th> linha horizontal
+
+tbody > tr:nth-child(*)	para efeito zembrado   *odd=impar ou even=par - ou 2n-1,2n
+
+fixar cabeçalho.........
+
+        thead > tr >th {
+            position: sticky;	fixar posição, table precisa ser relative
+            top: 0px;		fixar no topo
+            background-color: #383838;		cor, a mesma da fundo original
+
+Mesclagem de células........
+
+td colspan="2">B</td>   	colspan="2 expansão de coluna
+<td rowspan="3">F</td>		rowspan="3 expansão na linha
+
+utiliza colgrup dentro de table para dar classe para as colunas e estilizar ela por completo
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprofissao">
+        </colgroup>
+
+e pode usar o span="2" para pegar numero de colunas seguidas para editar junto
+
+Macete para responsividade tabelas.......................
+
+	envelopa a tag tabela em uma div, da o id container pra ela 
+	e faz essa configuração css
+
+        #container{
+            overflow: auto;
+
+
+
+
+
+
+<<<< MODULO 4 >>>> 
+
+
+CAPITULO 22 >-------------------------------------------------------

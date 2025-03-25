@@ -16,6 +16,7 @@
             font-variant: small-caps;
         }
         table{
+            position: relative;
             width: 500px;
             border-collapse: collapse;
         }
@@ -23,8 +24,17 @@
             border: 1px solid black;
             padding: 10px;
         }
+        thead > tr >th {
+            position: sticky;
+            top: 0px;
+            background-color: #383838;
+
+        }
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
         thead, tfoot{
-            background-color: gray;
+            background-color: #383838;
             color: white;
         }
         .num{
@@ -54,6 +64,18 @@
             <tr>
                 <td>Rio de Janeiro</td>
                 <td class="num">17.264.943</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td class="num">12.919.049</td>
+            </tr>
+            <tr>
+                <td>Amazonia</td>
+                <td class="num">8.168.791</td>
+            </tr>
+            <tr>
+                <td>Maranhao</td>
+                <td class="num">7.264.943</td>
             </tr>
         </tbody>
         <tfoot>

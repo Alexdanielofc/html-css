@@ -658,3 +658,21 @@ Macete para responsividade tabelas.......................
 
 
 CAPITULO 22 >-------------------------------------------------------
+
+IFRAME...................
+
+iframe = frame inline(quadro em linha)
+
+iframe = nova instancia de navegador dentro do site, alguns sites tem proteção contra 
+uso de iframe, e não respondem dentro do seu site
+
+<iframe src=(link do site carregado )frameborder=""></iframe>
+coloque <a href=""></a> dentro do iframe para que se não for compatível o site com o 
+iframe ele apresenta o link do site
+
+tamanho padrão 300x150
+
+scolling=""  auto(cria barra de rolagem) yes(mesmo que o conteúdo estivesse cabendo vai aparecer rolagem)
+no(mesmo se houver barra de rolagem ele não rola)
+
+da pra usar tanto index internos quanto sites fora
